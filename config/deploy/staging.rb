@@ -5,7 +5,7 @@
 set :stage, :staging
 set :stage_url, "http://cnn.simpleblend.net"
 server "s196379.gridserver.com", user: "simpleblend.net", roles: %w{web app db}
-set :deploy_to, "~/domains/cnn.simpleblend.net"
+set :deploy_to, "/home/196379/users/.home/domains/cnn.simpleblend.net/"
 
 ############################################
 # Setup Git
